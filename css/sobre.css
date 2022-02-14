@@ -1,6 +1,10 @@
 .sobre {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .sobre__titulo {
@@ -31,4 +35,9 @@
     justify-content: space-evenly;
 
     margin-bottom: 1rem;
+}
+
+.sobre__imagem {
+    text-align: center;
+    margin: 0 auto;
 }
